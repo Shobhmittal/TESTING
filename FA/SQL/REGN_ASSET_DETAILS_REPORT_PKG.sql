@@ -30,7 +30,8 @@ AS
    v_upc NUMBER;
    V_tod DATE;
   V_todd DATE;
-  
+    V_toddS DATE;
+
   --ADDED BY SM 23-AUG-2016
   CURSOR c_assets_zero_cost(p_book_type_code VARCHAR2,p_tod DATE, p_ucd DATE,p_upc NUMBER) IS
   SELECT /*+ ORDERED
